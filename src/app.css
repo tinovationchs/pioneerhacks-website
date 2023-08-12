@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#nav #nav-links a {
+    padding-left: 8px;
+}
+
+#nav {
+    background-image: radial-gradient(circle, #931e52, #20091b);
+}
+
+#content {
+    background-image: url("/bannersample.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
