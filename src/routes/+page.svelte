@@ -1,29 +1,9 @@
-<script>
-  import { page } from "$app/stores";
-</script>
+<div id="" class="">what the heck ryan lol</div>
 
-<div id="content" class="w-full h-screen">
+<div id="schedule" class="">wake up</div>
 
-</div>
+<div id="sponsors" class="">Juniper echo3D</div>
 
-<div id="schedule" class="w-full h-screen">
-  wake up 
-</div>
+<div id="faq" class="">how do i make websites?</div>
 
-<div id="sponsors" class="w-full h-screen">
-  Juniper echo3D
-</div>
-
-<div id="FAQ" class="w-full h-screen">
-  how do i make websites?
-</div>
-
-<h1 class="text-3xl font-bold underline">
-  PioneerHacks
-</h1>
-
-<style lang="postcss">
-  :global(html) {
-
-  }
-</style>
+<h1 class="text-3xl font-bold underline">PioneerHacks</h1>
