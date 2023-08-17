@@ -1,4 +1,4 @@
-<nav class="flex flex-row items-center py-6 px-16">
+<nav class="flex flex-row items-center px-16 py-6">
   <a href="/">
     <img src="/pioneerhead.png" alt="pioneer head" class="w-12" />
   </a>
