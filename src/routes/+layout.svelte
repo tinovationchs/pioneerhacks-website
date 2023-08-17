@@ -4,10 +4,12 @@
   import "../app.css";
 </script>
 
-<div class="flex min-h-screen flex-col">
+<div class="flex min-h-screen flex-col font-sans text-2xl">
   <Navbar />
 
-  <slot />
+  <div class="px-16">
+    <slot />
+  </div>
 
   <Footer />
 </div>

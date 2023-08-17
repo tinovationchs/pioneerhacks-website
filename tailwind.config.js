@@ -2,7 +2,14 @@
 export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["Mona Sans", "sans-serif"],
+    },
+    extend: {
+      fontFamily: {
+        header: ["Hubot Sans", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
