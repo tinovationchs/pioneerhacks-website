@@ -22,7 +22,7 @@
 
 @layer base {
   html {
-    @apply scroll-smooth bg-[#010101] text-[#fffefe];
+    @apply scroll-pt-24 scroll-smooth bg-[#010101] text-[#fffefe];
   }
 }
 
