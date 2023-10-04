@@ -18,8 +18,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
 @layer utilities {
   .font-condensed {
     font-stretch: condensed;
   }
 }
+
