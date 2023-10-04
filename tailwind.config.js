@@ -4,6 +4,7 @@ export default {
   theme: {
     fontFamily: {
       sans: ["Mona Sans", "sans-serif"],
+      mono: ["JetBrains Mono", "monospace"],
     },
     extend: {
       fontFamily: {

@@ -4,14 +4,11 @@
   import "../app.css";
 </script>
 
-<div class="flex min-h-screen flex-col font-sans text-2xl items-center">
-  <div class="max-w-[70rem] w-full px-4">
-    <Navbar />
-
+<Navbar />
+<div class="flex min-h-screen flex-col items-center font-sans text-2xl">
+  <div class="w-full max-w-[70rem] px-7">
     <slot />
   </div>
-  
-
 </div>
 
 <Footer />
