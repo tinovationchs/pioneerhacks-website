@@ -2,7 +2,7 @@
   import FaqItem from "./FaqItem.svelte";
 </script>
 
-<div class="flex flex-col gap-2">
+<div class="flex flex-col">
   <FaqItem
     q="Who can participate?"
     a="Any high school student can participate. If you've graduated from high school, you can't participate, but you can come help mentor others." />

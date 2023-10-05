@@ -30,4 +30,8 @@
   .font-condensed {
     font-stretch: condensed;
   }
+
+  .font-stretch-normal {
+    font-stretch: normal;
+  }
 }

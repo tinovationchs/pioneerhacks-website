@@ -8,11 +8,11 @@
 </script>
 
 <button
-  class="block w-full border-b-[1px] border-dashed border-gray-500 px-2 py-1 text-left"
+  class="block w-full border-b-[1px] border-dashed border-gray-500 px-2 py-2 text-left first:border-t-[1px]"
   on:click={() => {
     isOpen = !isOpen;
   }}>
-  <div class="flex flex-row justify-between gap-2">
+  <div class="flex flex-row items-center justify-between gap-2">
     <span class="">{q}</span>
 
     <span class="h-6 w-6">
