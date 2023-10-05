@@ -19,7 +19,8 @@
     
 
       <a
-        href="#register"
+        href="/"
+        target="_blank"
         class="font-stretch-normal group relative flex flex-row items-center gap-1 rounded bg-white px-4 py-1 font-header text-lg font-semibold text-black md:py-2 md:text-xl">
         register
 
