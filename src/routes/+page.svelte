@@ -1,29 +1,27 @@
 <script lang="ts">
   import FaqSection from "$lib/components/FaqSection.svelte";
   import Header from "$lib/components/Header.svelte";
+  import Section from "$lib/components/Section.svelte";
 </script>
 
 <Header />
 
-<div class="mb-16 text-4xl font-semibold text-gray-400">
-  FILLER: Our global developer conference is back. Join us as we build the future together.
-</div>
+<main class="flex flex-col gap-12 md:gap-16">
+  
+  <div class="text-4xl font-semibold text-gray-400">
+    FILLER: Our global developer conference is back. Join us as we build the future together.
+  </div>
 
-<main class="flex flex-col gap-12">
-  <div id="schedule">
-    <h2 class="text font-header text-4xl font-medium">schedule</h2>
-
+  <Section id="schedule" name="schedule">
     <p>wake up</p>
-  </div>
+  </Section>
 
-  <div id="faq">
-    <h2 class="text font-header text-4xl font-medium">faq</h2>
+  <Section id="faq" name="faq">
     <FaqSection />
-  </div>
+  </Section>
 
-  <div id="sponsors">
-    <h2 class="text font-header text-4xl font-medium">sponsors</h2>
-
+  <Section id="sponsors" name="sponsors">
     <p>juniper echo3D</p>
-  </div>
+  </Section>
+
 </main>
