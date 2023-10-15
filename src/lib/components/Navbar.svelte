@@ -16,37 +16,34 @@
       </div>
     </div>
 
-    
+    <a
+      href="/"
+      target="_blank"
+      class="font-stretch-normal group relative flex flex-row items-center gap-1 rounded bg-white px-4 py-1 font-header text-lg font-semibold text-black md:py-2 md:text-xl">
+      register
 
-      <a
-        href="/"
-        target="_blank"
-        class="font-stretch-normal group relative flex flex-row items-center gap-1 rounded bg-white px-4 py-1 font-header text-lg font-semibold text-black md:py-2 md:text-xl">
-        register
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="3"
+        stroke="currentColor"
+        class="h-4 w-4 transition duration-300 group-hover:translate-x-1 group-hover:opacity-0">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+      </svg>
 
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="3"
-          stroke="currentColor"
-          class="h-4 w-4 transition duration-300 group-hover:translate-x-1 group-hover:opacity-0">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-        </svg>
-
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="3"
-          stroke="currentColor"
-          class="absolute right-3.5 h-4 w-4 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:delay-100">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-        </svg>
-      </a>
-  
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="3"
+        stroke="currentColor"
+        class="absolute right-3.5 h-4 w-4 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:delay-100">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+      </svg>
+    </a>
   </div>
 </nav>

@@ -2,7 +2,6 @@
   import { fade, slide } from "svelte/transition";
 
   export let q: string;
-  export let a: string;
 
   let isOpen = false;
 </script>
@@ -44,7 +43,7 @@
 
   {#if isOpen}
     <div class="py-2 text-gray-400" transition:slide={{ duration: 250 }}>
-      {a}
+      <slot />
     </div>
   {/if}
 </button>
