@@ -1,5 +1,5 @@
 <nav
-  class="sticky top-0 mb-4 flex w-full flex-row justify-center bg-gray-800 bg-opacity-20 py-4 backdrop-blur-md">
+  class="sticky top-0 mb-4 flex w-full flex-row justify-center py-4 z-10" style="background: #ddd">
   <div
     class="font-condensed flex w-full max-w-[70rem] flex-row items-center justify-between gap-4 px-7 font-header font-medium">
     <div class="flex flex-row gap-4 sm:gap-8">

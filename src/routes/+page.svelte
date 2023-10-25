@@ -1,6 +1,7 @@
 <script lang="ts">
   import FaqSection from "$lib/components/FaqSection.svelte";
   import Header from "$lib/components/Header.svelte";
+  import Stats from "$lib/components/Stats.svelte";
   import Section from "$lib/components/Section.svelte";
   import Tagline from "$lib/components/Tagline.svelte";
 </script>
@@ -9,6 +10,8 @@
 
 <main class="flex flex-col gap-12 md:gap-16">
   <Tagline />
+
+  <Stats />
 
   <Section id="schedule" name="schedule">
     <p>wake up</p>
