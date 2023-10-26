@@ -1,17 +1,22 @@
-<div class="hero" style="height: 90vh">
+<script>
+  import HoverArrow from '../ui/hoverArrow.svelte';
+</script>
+
+<div class="hero" style="w-full height: 90vh">
   <div class="hero-content flex-col">
-    <div class="mt-12 flex flex-col items-center gap-2 font-mono text-lg sm:flex-row sm:justify-between md:text-2xl">
-      <span>FEBRUARY 17—18</span>
+    <div class="mt-12 flex items-center gap-2 font-mono text-lg sm:flex-row sm:justify-between md:text-2xl">
       <span>JUNIPER ASPIRATION DOME, SUNNYVALE</span>
+      <div class="w-12"></div>
+      <span>FEBRUARY 17—18</span>
     </div>
     <div class="flex">
       <h1 class="text-6xl my-auto">Pioneer Hacks </h1>
       <b class="text-9xl">V</b>
     </div>
 
-    <a class="flex hover:tracking-widest" style="transition: all 300ms" href="/register">
+    <a class="group flex hover:tracking-widest" style="transition: all 300ms" href="/register">
       <p class="my-auto">Register Now</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-6 w-6 my-auto"><g data-name="arrow-ios-forward"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M10 19a1 1 0 0 1-.64-.23 1 1 0 0 1-.13-1.41L13.71 12 9.39 6.63a1 1 0 0 1 .15-1.41 1 1 0 0 1 1.46.15l4.83 6a1 1 0 0 1 0 1.27l-5 6A1 1 0 0 1 10 19z"/></svg>
+      <HoverArrow size="6"/>
     </a>  
   </div>
 
@@ -67,4 +72,7 @@
 
     </svg>
   </div>
+
+  <!-- Overlay Fade -->
+  <div class="w-full h-full bg-gradient-to-t from-[#fff]"></div>
 </div>
