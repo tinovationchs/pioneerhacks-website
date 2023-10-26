@@ -16,7 +16,7 @@
 
     <a class="group flex hover:tracking-widest" style="transition: all 300ms" href="/register">
       <p class="my-auto">Register Now</p>
-      <HoverArrow size="6"/>
+      <HoverArrow size="1.5"/>
     </a>  
   </div>
 

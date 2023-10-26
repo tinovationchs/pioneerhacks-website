@@ -28,7 +28,7 @@
       style="transition: all 300ms"
       class="group flex items-center gap-1 rounded bg-white px-4 py-1 font-header text-lg text-info-content md:py-2 md:text-xl hover:tracking-widest">
       Register
-      <HoverArrow size="4"/>
+      <HoverArrow size="1"/>
     </a>
   </div>
 </nav>
