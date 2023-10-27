@@ -16,14 +16,15 @@ export default {
     themes: [
       {
         theme: {
-          "primary": "#570df8",
-          "secondary": "#f000b8",
-          "accent": "#1dcdbc",
-          "neutral": "#2b3440",
-          "base-100": "#ffffff",
-          "info": "#3abff8",
-          "success": "#36d399",
-          "warning": "#fbbd23",
+          "primary": "#fbbf24",
+          "secondary": "#f97316",
+          "accent": "#ef4444",
+          "neutral": "#eeeeee",
+          "neutral-focus": "#2b3440",
+          "base-100": "#2d4059",
+          "info": "#2dd4bf",
+          "success": "#bef264",
+          "warning": "#fbbf24",
           "error": "#f87272",
         },
       }

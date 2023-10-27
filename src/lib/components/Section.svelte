@@ -4,7 +4,7 @@
 </script>
 
 <div {id}>
-  <h2 class="text-info-content mb-4 ml-24 font-header text-5xl font-semibold tracking-wider">{name}</h2>
+  <h2 class="text-secondary mb-4 ml-4 font-header text-5xl font-semibold tracking-wider">{name}</h2>
 
   <slot />
 </div>

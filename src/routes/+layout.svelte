@@ -6,7 +6,7 @@
 
 <Navbar />
 <div class="flex min-h-screen flex-col items-center font-sans text-2xl">
-  <div class="w-full max-w-[70rem] px-7">
+  <div class="w-full">
     <slot />
   </div>
 </div>

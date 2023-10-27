@@ -2,31 +2,31 @@
   import HoverArrow from '../ui/hoverArrow.svelte';
 </script>
 
-<div class="hero" style="w-full height: 90vh">
+<div class="hero w-full mb-10">
   <div class="hero-content flex-col">
-    <div class="mt-12 flex items-center gap-2 font-mono text-lg sm:flex-row sm:justify-between md:text-2xl">
+    <div class="mt-12 flex items-center gap-2 font-mono text-neutral text-lg sm:flex-row sm:justify-between md:text-2xl">
       <span>JUNIPER ASPIRATION DOME, SUNNYVALE</span>
       <div class="w-12"></div>
       <span>FEBRUARY 17—18</span>
     </div>
     <div class="flex">
-      <h1 class="text-6xl my-auto">Pioneer Hacks </h1>
-      <b class="text-9xl">V</b>
+      <h1 class="text-6xl my-auto text-primary">Pioneer Hacks </h1>
+      <b class="text-9xl text-primary">V</b>
     </div>
 
-    <a class="group flex hover:tracking-widest" style="transition: all 300ms" href="/register">
+    <a class="group flex hover:tracking-widest text-secondary" style="transition: all 300ms" href="/register">
       <p class="my-auto">Register Now</p>
       <HoverArrow size="1.5"/>
     </a>  
   </div>
 
-  <div>
-    <svg fill="#eee" version="1.1" id="Layer_1" style="height:100%; width: 100%;"
+  <div class="w-full">
+    <svg version="1.1" style="height:100%; width: 100%;"
       xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
       width="1000" height="500" viewBox="0 0 1000 500" xml:space="preserve">
 
       <!-- Smoke -->
-      <g stroke="#eee" stroke-width="5" fill="white">
+      <g stroke-width="5" class="stroke-current fill-current">
         <circle cx="250" cy="400" r="200" />
         <circle cx="350" cy="300" r="150" />
         <circle cx="500" cy="380" r="130" />
@@ -35,7 +35,8 @@
         <circle cx="400" cy="600" r="300" />
       </g>
 
-      <g transform="translate(650, -120) rotate(50)" stroke="#eee">
+      <!-- Rocket -->
+      <g transform="translate(570, -120) rotate(50)" class="stroke-none fill-neutral">
         <path d="M331.8,449.56v-83.627c0-29.867-17.92-58.027-35.84-81.92l-6.827-9.387v-62.708c9.84-1.93,17.067-10.437,17.067-20.919
             V92.867v-8.533V75.8h-0.249C302.324,13.172,259.195-0.183,257.56-1H255h-2.56c-1.635,0.817-44.764,14.172-48.391,76.8H203.8
             v8.533v8.533V191c0,10.481,7.227,18.988,17.067,20.919v62.708l-6.827,9.387c-17.92,23.893-35.84,52.053-35.84,81.92v82.773
@@ -59,12 +60,12 @@
       </g>
 
       <!-- Stars -->
-      <g transform="translate(850 300) scale(3)" stroke="#eee">
+      <g transform="translate(850 300) scale(3)" class="stroke-current fill-none">
         <path 
           d="M12 3C12 7.97056 16.0294 12 21 12C16.0294 12 12 16.0294 12 21C12 16.0294 7.97056 12 3 12C5.6655 12 8.06036 10.8412 9.70832 9"
           stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       </g>
-      <g transform="translate(200 50) scale(3)" stroke="#eee">
+      <g transform="translate(200 50) scale(3)" class="stroke-current fill-none">
         <path 
           d="M12 3C12 7.97056 16.0294 12 21 12C16.0294 12 12 16.0294 12 21C12 16.0294 7.97056 12 3 12C5.6655 12 8.06036 10.8412 9.70832 9"
           stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -74,5 +75,5 @@
   </div>
 
   <!-- Overlay Fade -->
-  <div class="w-full h-full bg-gradient-to-t from-[#fff]"></div>
+  <div class="w-full h-full bg-gradient-to-t from-base-100"></div>
 </div>

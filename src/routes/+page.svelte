@@ -9,7 +9,7 @@
 
 <Hero />
 
-<main class="flex flex-col gap-12 md:gap-16">
+<main class="flex flex-col gap-12 md:gap-16 max-w-[50rem] mx-auto">
   <Tagline />
 
   <Stats />

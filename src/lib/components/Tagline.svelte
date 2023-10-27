@@ -10,8 +10,8 @@
   ];
 </script>
 
-<div class="min-h-[3rem]">
-  <p class="text-5xl font-semibold text-stone-400">
+<div class="pl-4 text-5xl h-[3em] w-full">
+  <p class="font-semibold text-neutral">
     We...<Typewriter loop wordInterval="10000">
       {#each taglines as tagline}
         <p>{tagline}</p>
