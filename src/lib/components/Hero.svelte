@@ -2,7 +2,7 @@
   import HoverArrow from '../ui/hoverArrow.svelte';
 </script>
 
-<div class="hero w-full mb-10">
+<div class="hero w-full mb-10 title-text">
   <div class="hero-content flex-col">
     <div class="mt-12 flex items-center gap-2 font-mono text-neutral text-lg sm:flex-row sm:justify-between md:text-2xl">
       <span>JUNIPER ASPIRATION DOME, SUNNYVALE</span>

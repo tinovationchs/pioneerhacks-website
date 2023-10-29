@@ -5,33 +5,36 @@
   import Stats from "$lib/components/Stats.svelte";
   import Schedule from "$lib/components/Schedule.svelte";
   import FaqSection from "$lib/components/FaqSection.svelte";
+  import PlanetOrbit from "$lib/components/PlanetOrbit.svelte"
 </script>
 
-<Hero />
+<PlanetOrbit />
 
-<main class="flex flex-col gap-12 md:gap-16 max-w-[50rem] mx-auto">
-  <Tagline />
+<div class="h-16"></div>
 
-  <Stats />
+<div class="lower-section flex flex-col gap-12 md:gap-16 max-w-[50rem] mx-auto">
+    <Tagline />
 
-  <Section id="schedule" name="Schedule">
-    <Schedule />
-  </Section>
+    <Stats />
 
-  <Section id="faq" name="FAQ">
-    <FaqSection />
-  </Section>
+    <Section id="schedule" name="Schedule">
+      <Schedule />
+    </Section>
 
-  <Section id="sponsors" name="Sponsors">
-    <div class="flex flex-row flex-wrap items-center justify-evenly gap-8">
-      <img src="https://www.losaltoshacks.com/sponsors/juniper.svg" alt="" class="h-24" />
-      <img src="https://www.losaltoshacks.com/sponsors/bill.svg" alt="" class="h-36" />
-      <img src="https://www.losaltoshacks.com/sponsors/google.svg" alt="" class="h-28" />
-      <img src="https://www.losaltoshacks.com/sponsors/nokia.svg" alt="" class="h-20" />
-      <img src="https://www.losaltoshacks.com/sponsors/corsair.svg" alt="" class="h-32" />
-      <img src="https://www.losaltoshacks.com/sponsors/malwarebytes.svg" alt="" class="h-20" />
-      <img src="https://www.losaltoshacks.com/sponsors/niantic.svg" alt="" class="h-32" />
-      <img src="" alt="" />
-    </div>
-  </Section>
-</main>
+    <Section id="faq" name="FAQ">
+      <FaqSection />
+    </Section>
+
+    <Section id="sponsors" name="Sponsors">
+      <div class="flex flex-row flex-wrap items-center justify-evenly gap-8">
+        <img src="https://www.losaltoshacks.com/sponsors/juniper.svg" alt="" class="h-24" />
+        <img src="https://www.losaltoshacks.com/sponsors/bill.svg" alt="" class="h-36" />
+        <img src="https://www.losaltoshacks.com/sponsors/google.svg" alt="" class="h-28" />
+        <img src="https://www.losaltoshacks.com/sponsors/nokia.svg" alt="" class="h-20" />
+        <img src="https://www.losaltoshacks.com/sponsors/corsair.svg" alt="" class="h-32" />
+        <img src="https://www.losaltoshacks.com/sponsors/malwarebytes.svg" alt="" class="h-20" />
+        <img src="https://www.losaltoshacks.com/sponsors/niantic.svg" alt="" class="h-32" />
+        <img src="" alt="" />
+      </div>
+    </Section>
+  </div>

@@ -8,8 +8,10 @@
     <a href="/" class="flex items-center gap-4 text-2xl md:text-3xl">
       <img src="/pioneerhead.png" alt="pioneer head" class="w-8" />
       <span>/</span>
-      <span class="text-primary">Pioneer Hacks <b>V</b></span>
+      <span class="text-primary">phv</span>
     </a>
+
+    <div class="w-4"></div>
 
     <!-- Section redirects -->
     <div class="flex items-center gap-8 text-2xl">

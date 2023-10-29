@@ -10,11 +10,11 @@
   ];
 </script>
 
-<div class="pl-4 text-5xl h-[3em] w-full">
+<div class="pl-4 text-5xl h-[3em] w-full" style="z-index: 12">
   <p class="font-semibold text-neutral">
-    We...<Typewriter loop wordInterval="10000">
+    We... <Typewriter loop wordInterval="10000">
       {#each taglines as tagline}
-        <p>{tagline}</p>
+      <p>{tagline}</p>
       {/each}
     </Typewriter>
   </p>
