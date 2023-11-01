@@ -26,7 +26,7 @@
 
     <Section id="sponsors" name="Sponsors">
       <div class="flex flex-row flex-wrap items-center justify-evenly gap-8">
-        <img src="https://www.losaltoshacks.com/sponsors/juniper.svg" alt="" class="h-24" />
+        <a href="https://juniper.net" target="_blank"><img src="/juniper_white.png" alt="" class="h-24" /></a>
       </div>
     </Section>
   </div>
