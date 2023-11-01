@@ -53,11 +53,9 @@
   background: #ff3c00;
 }
 
-/*
 html, body {
   overflow-x:hidden 
 }
-*/
 
 #universe {
   z-index: 1;
