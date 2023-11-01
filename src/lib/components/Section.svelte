@@ -3,8 +3,8 @@
   export let name: string;
 </script>
 
-<div {id}>
-  <h2 class="text-secondary mb-4 ml-4 font-header text-5xl font-semibold tracking-wider">{name}</h2>
+<div {id} class="mx-8">
+  <h2 class="text-secondary mb-4 ml-8 font-header text-3xl md: text-5xl font-semibold tracking-wider">{name}</h2>
 
   <slot />
 </div>

@@ -32,7 +32,7 @@
     </a>  
   </div>
 
-  <div class="absolute bg-base-100 lg:pt-36 w-full h-full zoom-large view-3D">
+  <div class="absolute bg-base-100 pt-36 w-full h-[50vh] sm:h-[100vh] zoom-large view-3D">
     <div id="universe" class="scale-stretched">
       <div id="galaxy">
           <div id="solar-system">
