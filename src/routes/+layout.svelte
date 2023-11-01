@@ -5,10 +5,8 @@
 </script>
 
 <Navbar />
-<div class="flex min-h-screen flex-col items-center font-sans text-2xl">
-  <div class="w-full max-w-[70rem] px-7">
-    <slot />
-  </div>
+<div class="flex flex-col items-center font-sans text-2xl">
+  <slot />
 </div>
 
 <Footer />

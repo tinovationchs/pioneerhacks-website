@@ -1,34 +1,21 @@
 <script lang="ts">
-  import { onMount } from "svelte";
+  import Typewriter from 'svelte-typewriter';
 
-  let ready = false;
-  onMount(() => (ready = true));
-
-  function typewriter(node: Node) {
-    const speed = 4;
-    const valid = node.childNodes.length === 1 && node.childNodes[0].nodeType === Node.TEXT_NODE;
-
-    if (!valid) {
-      throw new Error(`This transition only works on elements with a single text node child`);
-    }
-
-    const text = node.textContent!;
-    const duration = text.length / (speed * 0.01);
-
-    return {
-      duration,
-      tick: (t: number) => {
-        const i = Math.trunc(text.length * t);
-        node.textContent = text.slice(0, i);
-      },
-    };
-  }
+  const taglines = [
+    "pioneer the future!",
+    "are passionate about coding",
+    "are problem-solvers",
+    "make things happen",
+    "love donuts!"
+  ];
 </script>
 
-<div class="min-h-[3rem]">
-  {#if ready}
-    <p transition:typewriter class="text-5xl font-semibold text-gray-400">
-      {"<insert tagline here>"}
-    </p>
-  {/if}
+<div class="z-40 pl-4 text-5xl h-[2em] w-full">
+  <p class="font-semibold text-neutral">
+    We... <Typewriter loop wordInterval="10000">
+      {#each taglines as tagline}
+      <p>{tagline}</p>
+      {/each}
+    </Typewriter>
+  </p>
 </div>
