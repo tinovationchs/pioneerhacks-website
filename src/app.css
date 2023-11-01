@@ -53,6 +53,11 @@
   background: #ff3c00;
 }
 
+/*
+html, body {
+  overflow-x:hidden 
+}
+*/
 
 #universe {
   z-index: 1;
@@ -349,13 +354,13 @@
 #jupiter .pos,
 #jupiter .planet,
 #jupiter.orbit {
-  animation-duration: 52s; }
+  animation-duration: 42s; }
 
 #saturn .pos,
 #saturn .planet,
 #saturn.orbit,
 #saturn .ring {
-  animation-duration: 12s; }
+  animation-duration: 50s; }
 
 /* SIZES */
 .scale-stretched #sun {

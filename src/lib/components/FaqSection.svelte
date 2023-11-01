@@ -2,7 +2,7 @@
   import FaqItem from "./FaqItem.svelte";
 </script>
 
-<div class="flex flex-col">
+<div class="flex flex-col text-sm md:text-xl lg:text-2xl">
   <FaqItem q="Who can participate?">
     PioneerHacks is open to all high school students in grades 9-12 around the Bay and beyond. 
     If you are a college student/company representative and are interested in mentoring, volunteering, or leading a workshop, 
