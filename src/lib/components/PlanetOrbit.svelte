@@ -6,21 +6,26 @@
     <div class="hero w-full mb-10 imposed">
         <div class="hero-content flex-col">
         <div class="mt-12 flex items-center gap-2 font-mono text-neutral text-lg sm:flex-row sm:justify-between md:text-2xl">
-            <span>JUNIPER ASPIRATION DOME, SUNNYVALE</span>
+            <span><a href="https://maps.app.goo.gl/L1gddhwzDswuK1z69" target="_blank"><u>JUNIPER ASPIRATION DOME @ SUNNYVALE</u></a></span>
             <div class="w-12"></div>
-            <span>FEBRUARY 17—18</span>
+            <span>FEBRUARY 17—18 2024</span>
         </div>
 
         <div class="flex">
-            <b class="text-9xl text-primary">pioneer hacks V</b>
+            <span class="text-9xl text-primary">pioneerhacks <strong>V</strong></span>
         </div>
 
-        <a class="group flex hover:tracking-widest text-secondary" style="transition: all 300ms" href="/register">
-            <p class="my-auto">Register Now</p>
-            <HoverArrow size="1.5"/>
-        </a>  
+        <div class="flex flex-col gap-0 h-full">
+            <a class="group flex hover:tracking-widest text-secondary" style="transition: all 300ms" href="https://forms.gle/bnjFkqSv4G2qRqBVA" target="_blank">
+                <p class="my-auto">Register Now</p>
+                <HoverArrow size="1.5"/>
+            </a>  
 
-
+            <a class="group flex hover:tracking-widest text-secondary text-sm justify-center" style="transition: all 300ms" href="https://pioneerhacks-v.devpost.com/" target="_blank">
+                <p class="my-auto">Devpost</p>
+                <HoverArrow size="1.5"/>
+            </a>  
+        </div>
         </div>
     </div>
 

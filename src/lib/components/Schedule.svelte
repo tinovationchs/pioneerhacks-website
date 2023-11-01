@@ -1,22 +1,10 @@
 <script>
   const events = [
     {
-      timing: "Saturday, 9:30AM",
-      indicator: "important",
-      title: "Arrival",
-      description: "Sir Taisei De La Cruz (OBE)'s Campaign Address. Donate now at taisei.moe/pres2024",
-    },
-    {
-      timing: "Saturday, 10:30AM",
-      indicator: "questionable",
-      title: "Friar Cui's Sermon on Individualism and Counter-Conformity",
-      description: "Times are to be represented in military time only. Failure to comply to this rule will result in the loss of lunch priviliges.",
-    },
-    {
-      timing: "Saturday, 2:30PM",
-      indicator: "Age Restricted",
-      title: "UFC 304: Zuckerberg v. Musk Watch-along",
-      description: "Tune in with the officers to a thrilling 5-round special-format octagon fight, as the two biggest tech gurus brawl it out for the intrim programmer-weight title",
+      timing: "TBA",
+      indicator: "",
+      title: "To be Announced",
+      description: "The schedule will be released soon!",
     }
   ];
 </script>

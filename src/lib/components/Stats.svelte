@@ -9,9 +9,9 @@
     <div class="stat-figure text-primary">
       <Person />
     </div>
-    <div class="stat-title">Participants</div>
-    <div class="stat-value">130+</div>
-    <div class="stat-desc">(as of Pioneerhacks 4)</div>
+    <div class="stat-title flex justify-center text-center">Lifetime<br> Participants</div>
+    <div class="stat-value">500+</div>
+    <div class="stat-desc">(As of PioneerHacks IV)</div>
   </div>
   
   <div class="stat place-items-center">
@@ -20,15 +20,15 @@
     </div>
     <div class="stat-title">Prize Value</div>
     <div class="stat-value">$8,000</div>
-    <div class="stat-desc">↗︎ 2,000 (33%)</div>
+    <div class="stat-desc">(in PioneerHacks IV)</div>
   </div>
   
   <div class="stat place-items-center">
     <div class="stat-figure text-primary">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-12 h-12 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg>
-    </div>
-    <div class="stat-title">Years Running</div>
-    <div class="stat-value">7</div>
-    <div class="stat-desc">(since 2017)</div>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-16 h-16 bi bi-calendar" viewBox="-6 -6 30 30"> <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/> </svg>
+  </div>
+    <div class="stat-title flex justify-center text-center">Years<br> Running</div>
+    <div class="stat-value">6</div>
+    <div class="stat-desc">(since 2018)</div>
   </div>
 </div>

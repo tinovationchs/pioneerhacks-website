@@ -18,6 +18,7 @@
       <a href="#schedule" class="scroll-smooth">Schedule</a>
       <a href="#faq">FAQ</a>
       <a href="#sponsors">Sponsors</a>
+      <a href="https://hcb.hackclub.com/donations/start/pioneerhacks" target="_blank">Donate</a>
     </div>
 
     <!-- Spacer -->
@@ -25,7 +26,7 @@
 
     <!-- Register Button -->
     <a
-      href="/register"
+      href="https://forms.gle/bnjFkqSv4G2qRqBVA"
       target="_blank"
       style="transition: all 300ms"
       class="group flex items-center gap-1 rounded bg-secondary px-4 py-1 font-header text-lg text-info-content md:py-2 md:text-xl hover:tracking-widest">
