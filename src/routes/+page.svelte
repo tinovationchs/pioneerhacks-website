@@ -5,10 +5,9 @@
   import Stats from "$lib/components/Stats.svelte";
   import Schedule from "$lib/components/Schedule.svelte";
   import FaqSection from "$lib/components/FaqSection.svelte";
-  import PlanetOrbit from "$lib/components/PlanetOrbit.svelte"
 </script>
 
-<PlanetOrbit />
+<Hero />
 
 <div class="h-16"></div>
 

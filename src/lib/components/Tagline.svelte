@@ -10,7 +10,7 @@
   ];
 </script>
 
-<div class="pl-4 text-5xl h-[2em] w-full" style="z-index: 5">
+<div class="z-40 pl-4 text-5xl h-[2em] w-full">
   <p class="font-semibold text-neutral">
     We... <Typewriter loop wordInterval="10000">
       {#each taglines as tagline}

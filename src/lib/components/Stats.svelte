@@ -3,7 +3,7 @@
   import Prize from "../svg/prize.svelte";
 </script>
 
-<div class="stats shadow-xl">
+<div class="stats shadow-xl bg-base-200">
   
   <div class="stat place-items-center">
     <div class="stat-figure text-primary">

@@ -2,7 +2,7 @@
   import HoverArrow from '../ui/hoverArrow.svelte';
 </script>
 
-<nav class="sticky top-0 w-full p-4 z-10 bg-neutral-focus">
+<nav class="z-50 sticky top-0 w-full p-4 bg-neutral-focus">
   <div class="mx-20 flex gap-4 mx-8 px-7 font-header font-medium">
     <!-- Logo -->
     <a href="/" class="flex items-center gap-4 text-2xl md:text-3xl">
