@@ -7,11 +7,11 @@
 </script>
 
 <button
-  class="block w-full border-b-[1px] border-dashed border-gray-500 px-2 py-2 text-left first:border-t-[1px]"
+  class="block w-full border-b-[1px] border-dashed border-neutral px-2 py-2 text-left first:border-t-[1px]"
   on:click={() => {
     isOpen = !isOpen;
   }}>
-  <div class="flex flex-row items-center justify-between gap-2">
+  <div class="flex flex-row items-center font-bold justify-between gap-2">
     <span class="">{q}</span>
 
     <span class="h-6 w-6">
@@ -42,7 +42,7 @@
   </div>
 
   {#if isOpen}
-    <div class="py-2 text-gray-400" transition:slide={{ duration: 250 }}>
+    <div class="py-2 text-neutral" transition:slide={{ duration: 250 }}>
       <slot />
     </div>
   {/if}
