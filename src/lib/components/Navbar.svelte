@@ -3,7 +3,7 @@
 </script>
 
 
-<nav class="z-50 sticky top-0 w-full py-4 px-4 md:px-12 lg:px-24 bg-neutral-focus flex font-header font-medium">
+<nav class="z-50 sticky top-0 w-full py-4 px-4 md:px-12 lg:px-24 bg-base-200 flex font-header font-medium">
   <!-- Logo -->
   <a href="/" class="flex items-center gap-4 mx-4 md:mx-10 text-2xl md:text-3xl">
     <img src="/pioneerhead.png" alt="pioneer head" class="w-8" />

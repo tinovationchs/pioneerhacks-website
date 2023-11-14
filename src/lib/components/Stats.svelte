@@ -3,7 +3,7 @@
   import Prize from "../svg/prize.svelte";
 </script>
 
-<div class="mx-10 py-6 stats shadow-xl bg-accent text-primary
+<div class="mx-10 py-6 stats shadow-xl bg-base-200 text-primary
   text-xs stats-vertical md:stats-horizontal">
   
   <div class="stat bg place-items-center">

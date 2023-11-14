@@ -5,7 +5,7 @@
 <div class="w-full h-[50vh] sm:h-[100vh] mb-12">
   <!-- Top Overlay -->
   <div class="w-[100%] flex flex-col pt-12 lg:pt-28 w-10/12 items-center gap-1 sm: gap-3
-      z-40 bg-gradient-to-b from-neutral-focus from-10% absolute">
+      z-40 bg-gradient-to-b from-base-200 from-10% absolute">
     <div class="flex items-center font-mono text-neutral 
       mx-10 lg:mx-20
       text-xs md:text-2xl">
@@ -33,7 +33,7 @@
     </a>  
   </div>
 
-  <div class="absolute bg-base-100 pt-36 w-full h-[50vh] sm:h-[100vh] zoom-large view-3D">
+  <div class="absolute pt-36 w-full h-[50vh] sm:h-[100vh] zoom-large view-3D">
     <div id="universe" class="scale-stretched">
       <div id="galaxy">
           <div id="solar-system">
@@ -58,25 +58,25 @@
             </div>
             </div>
 
-            <div class="planet" style="background-color: rgb(19, 206, 150);"></div>
+            <div class="planet" style="background-color: #68A38A;"></div>
             </div>
           </div>
 
           <div id="mars" class="orbit">
             <div class="pos">
-              <div class="planet" style="background-color: rgb(141, 27, 27);"></div>
+              <div class="planet" style="background-color: #B02066;"></div>
             </div>
           </div>
 
           <div id="jupiter" class="orbit">
             <div class="pos">
-            <div class="planet" style="background-color: #eee"></div>
+            <div class="planet" style="background-color: #D29747"></div>
             </div>
           </div>
 
           <div id="saturn" class="orbit">
             <div class="pos">
-            <div class="planet" style="background-color: rgb(155, 141, 123);">
+            <div class="planet" style="background-color: #978E7C;">
               <div class="ring"></div>
             </div>
             </div>

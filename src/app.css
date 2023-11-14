@@ -22,7 +22,7 @@
 
 @layer base {
   html {
-    @apply scroll-pt-20 scroll-smooth bg-black text-white md:scroll-pt-24;
+    @apply scroll-pt-20 scroll-smooth text-white md:scroll-pt-24;
   }
 }
 
