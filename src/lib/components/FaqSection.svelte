@@ -6,7 +6,7 @@
   <FaqItem q="Who can participate?">
     PioneerHacks is open to all high school students in grades 9-12 around the Bay and beyond. 
     If you are a college student/company representative and are interested in mentoring, volunteering, or leading a workshop, 
-    make sure to email us at <a href="mailto:team@pioneerhacks.org" style="color: #C4E4E7;">team@pioneerhacks.org</a> 
+    make sure to email us at <a href="mailto:team@pioneerhacks.org" class="text-info">team@pioneerhacks.org</a> 
     to let us know, and we’ll get back to you!
 
     <br><br>Special exemptions may be made for prospective participants not yet in high school on a case-by-case basis. Email us for further 

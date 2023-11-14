@@ -22,7 +22,7 @@
 
 @layer base {
   html {
-    @apply scroll-pt-20 scroll-smooth bg-black text-white md:scroll-pt-24;
+    @apply scroll-pt-20 scroll-smooth text-white md:scroll-pt-24;
   }
 }
 
@@ -54,7 +54,7 @@
 }
 
 html, body {
-  overflow-x:hidden 
+  overflow-x: clip 
 }
 
 #universe {
@@ -124,7 +124,6 @@ html, body {
   box-shadow: 0 0 60px rgba(255, 160, 60, 0.4); }
 
 .planet {
-  background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
   animation-iteration-count: infinite;
@@ -775,53 +774,6 @@ html, body {
 .opening .ring,
 .opening .pos {
   transition-delay: 0s; }
-
-h1, #data, #controls {
-  transition-property: opacity, margin;
-  transition-duration: .8s;
-  transition-timing-function: ease-in-out; }
-
-h1 {
-  transition-delay: .35s; }
-
-#data {
-  transition-delay: .7s; }
-
-#controls {
-  transition-delay: 1s; }
-
-/* IMAGES */
-#sun {
-  background-color: #ecb53c;
-}
-
-#mercury .planet {
-  background-color: rgb(173, 186, 192);
-}
-
-#venus .planet {
-  background-color: #d4874b;
-}
-
-#earth .planet {
-  background-color: rgb(19, 206, 150);
-}
-
-#earth .moon {
-  background-color: rgb(185, 170, 170);
-}
-
-#mars .planet {
-  background-color: rgb(141, 27, 27);
-}
-
-#jupiter .planet {
-  background-color: #dabd80;
-}
-
-#saturn .planet {
-  background-color: rgb(155, 141, 123);
-}
 
 
 /* RESPONSIVE STYLING */
