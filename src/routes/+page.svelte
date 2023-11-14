@@ -12,21 +12,21 @@
 <div class="h-16"></div>
 
 <div class="lower-section flex flex-col gap-12 md:gap-14 max-w-[50rem] mx-auto">
-    <Tagline />
 
-    <Stats />
+  <Tagline />
+  <Stats />
 
-    <Section id="schedule" name="Schedule">
-      <Schedule />
-    </Section>
+  <Section id="schedule" name="Schedule">
+    <Schedule />
+  </Section>
 
-    <Section id="faq" name="FAQ">
-      <FaqSection />
-    </Section>
+  <Section id="faq" name="FAQ">
+    <FaqSection />
+  </Section>
 
-    <Section id="sponsors" name="Sponsors">
-      <div class="flex flex-row flex-wrap items-center justify-evenly gap-8">
-        <a href="https://juniper.net" target="_blank"><img src="/juniper_white.png" alt="" class="h-24" /></a>
-      </div>
-    </Section>
-  </div>
+  <Section id="sponsors" name="Sponsors">
+    <div class="flex flex-row flex-wrap items-center justify-evenly gap-8">
+      <a href="https://juniper.net" target="_blank"><img src="/juniper_white.png" alt="" class="h-24" /></a>
+    </div>
+  </Section>
+</div>

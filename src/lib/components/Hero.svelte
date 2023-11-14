@@ -6,7 +6,7 @@
   <!-- Top Overlay -->
   <div class="w-[100%] flex flex-col pt-12 lg:pt-28 w-10/12 items-center gap-1 sm: gap-3
       z-40 bg-gradient-to-b from-base-200 from-10% absolute">
-    <div class="flex items-center font-mono text-neutral 
+    <div class="flex items-center font-mono text-neutral tracking-wide 
       mx-10 lg:mx-20
       text-xs md:text-2xl">
       <span><a href="https://maps.app.goo.gl/L1gddhwzDswuK1z69" target="_blank">JUNIPER ASPIRATION DOME @ SUNNYVALE</a></span>
@@ -14,18 +14,18 @@
       <span>FEBRUARY 17—18 2024</span>
     </div>
 
-    <div class="text-4xl font-medium sm:text-7xl lg:text-9xl text-primary">pioneerhacks <strong>V</strong></div>
+    <div class="text-4xl font-thin sm:text-6xl lg:text-[7rem] text-primary tracking-widest">pioneer hacks <strong>V</strong></div>
 
-    <a class="group flex hover:tracking-widest text-secondary" 
-       style="transition: all 300ms" 
+    <a class="group flex tracking-[0.2em] hover:tracking-[0.5em] text-secondary" 
+       style="transition: all 500ms" 
        href="https://forms.gle/bnjFkqSv4G2qRqBVA" 
        target="_blank">
       Register Now
       <HoverArrow size="1.5"/>
     </a>  
 
-    <a class="group flex hover:tracking-widest text-info text-sm" 
-       style="transition: all 300ms" 
+    <a class="group flex tracking-[0.2em] hover:tracking-[0.5em] text-info text-sm" 
+       style="transition: all 500ms" 
        href="https://pioneerhacks-v.devpost.com/"
        target="_blank">
       Devpost

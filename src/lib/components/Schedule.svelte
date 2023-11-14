@@ -30,7 +30,7 @@
     <!-- Event Card -->
     <div class="col-span-5 w-full indicator my-4">
       <span class="indicator-item indicator-center badge badge-primary">{event.indicator}</span>
-      <div class="card w-full bg-base-200 shadow-xl">
+      <div class="card w-full bg-base-300 shadow-xl">
         <div class="card-body">
           <!-- Title -->
           <h2 class="card-title text-primary">
