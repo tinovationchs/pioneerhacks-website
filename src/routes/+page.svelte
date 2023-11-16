@@ -25,8 +25,9 @@
   </Section>
 
   <Section id="sponsors" name="Sponsors">
-    <div class="flex flex-row flex-wrap items-center justify-evenly gap-8">
-      <a href="https://juniper.net" target="_blank"><img src="/juniper_white.png" alt="" class="h-24" /></a>
+    <div class="flex flex-col flex-wrap items-center justify-evenly">
+      <a href="https://juniper.net" target="_blank"><img src="/sponsors/juniper.png" alt="juniper" class="m-8 h-24" /></a>
+      <a href="https://www.echo3d.com/" target="_blank"><img src="/sponsors/echo3d.png" alt="echo3d" class="m-[50px] [ w-[200px]" /></a>
     </div>
   </Section>
 </div>
