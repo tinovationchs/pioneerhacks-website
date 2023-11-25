@@ -11,7 +11,7 @@
 
 <div class="h-16"></div>
 
-<div class="lower-section flex flex-col gap-12 md:gap-14 max-w-[50rem] mx-auto">
+<div class="flex flex-col gap-12 md:gap-14 w-full max-w-[50rem]">
 
   <Tagline />
   <Stats />
@@ -26,8 +26,10 @@
 
   <Section id="sponsors" name="Sponsors">
     <div class="flex flex-col flex-wrap items-center justify-evenly">
-      <a href="https://juniper.net" target="_blank"><img src="/sponsors/juniper.png" alt="juniper" class="m-8 h-24" /></a>
-      <a href="https://www.echo3d.com/" target="_blank"><img src="/sponsors/echo3d.png" alt="echo3d" class="m-[50px] [ w-[200px]" /></a>
+      <a href="https://juniper.net" target="_blank">
+        <img src="/sponsors/juniper.png" alt="juniper" class="my-8 m-auto h-max-24 w-[50%]" />
+      </a>
+      <a href="https://www.echo3d.com/" target="_blank"><img src="/sponsors/echo3d.png" alt="echo3d" class="my-4 m-auto w-[200px]" /></a>
     </div>
   </Section>
 </div>

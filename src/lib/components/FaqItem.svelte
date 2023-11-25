@@ -11,7 +11,7 @@
   on:click={() => {
     isOpen = !isOpen;
   }}>
-  <div class="flex flex-row items-center font-bold justify-between gap-2">
+  <div class="flex flex-row items-center font-medium justify-between gap-2">
     <span class="">{q}</span>
 
     <span class="h-6 w-6">
