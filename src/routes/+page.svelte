@@ -29,7 +29,10 @@
       <a href="https://juniper.net" target="_blank">
         <img src="/sponsors/juniper.png" alt="juniper" class="my-8 m-auto h-max-24 w-[50%]" />
       </a>
-      <a href="https://www.echo3d.com/" target="_blank"><img src="/sponsors/echo3d.png" alt="echo3d" class="my-4 m-auto w-[200px]" /></a>
+      <a href="https://www.desmos.com/" target="_blank">
+        <img src="/sponsors/desmos.png" alt="desmos" style="filter: brightness(0) invert(1);" class="my-6 m-auto w-[300px]" />
+      </a>
+      <a href="https://www.echo3d.com/" target="_blank"><img src="/sponsors/echo3d.png" alt="echo3d" class="my-6 m-auto w-[200px]"/></a>
     </div>
   </Section>
 </div>
