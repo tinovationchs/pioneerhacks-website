@@ -26,13 +26,34 @@
 
   <Section id="sponsors" name="Sponsors">
     <div class="flex flex-col flex-wrap items-center justify-evenly">
-      <a href="https://juniper.net" target="_blank">
-        <img src="/sponsors/juniper.png" alt="juniper" class="my-8 m-auto h-max-24 w-[50%]" />
+      <!-- Row 1 (Juniper) -->
+      <a href="https://juniper.net" target="_blank" class="my-8 h-max-24 w-[70%] max-w-[400px]" >
+        <img src="/sponsors/juniper.png" alt="juniper"/>
       </a>
-      <a href="https://www.desmos.com/" target="_blank">
-        <img src="/sponsors/desmos.png" alt="desmos" style="filter: brightness(0) invert(1);" class="my-6 m-auto w-[300px]" />
+
+      <!-- Row 2 -->
+      <a href="https://www.launchx.com/" target="_blank" class="my-8 h-max-24 w-[50%] max-w-[250px]">
+        <img src="/sponsors/launchx.png" alt="launchx"/>
       </a>
-      <a href="https://www.echo3d.com/" target="_blank"><img src="/sponsors/echo3d.png" alt="echo3d" class="my-6 m-auto w-[200px]"/></a>
+
+      <!-- Row 3 -->
+      <div class="flex flex-row items-center gap-8">
+        <a href="https://artofproblemsolving.com/" target="_blank" class="my-8 h-max-24 w-[50%] max-w-[300px]">
+          <img src="/sponsors/aops.png" alt="aops"/>
+        </a>
+
+        <a href="https://www.wolframalpha.com/" target="_blank" class="my-8 m-auto h-max-24 w-[50%] max-w-[300px]">
+          <img src="/sponsors/wolfram.png" alt="wolfram alpha"/>
+        </a>
+      </div>
+
+      <!-- Row 4 -->
+      <a href="https://www.desmos.com/" target="_blank" class="my-6 w-[30%] max-w-[180px]">
+        <img src="/sponsors/desmos.png" alt="desmos" style="filter: brightness(0) invert(1);"/>
+      </a>
+
+      <!-- Row 5 (Echo3D) -->
+      <a href="https://www.echo3d.com/" target="_blank" class="my-6 w-[30%] w-[200px]"><img src="/sponsors/echo3d.png" alt="echo3d"/></a>
     </div>
   </Section>
 </div>
