@@ -32,7 +32,7 @@
       </a>
 
       <!-- Row 2 -->
-      <a href="https://www.launchx.com/" target="_blank" class="my-8 h-max-24 w-[50%] max-w-[250px]">
+      <a href="https://launchx.com/?utm_source=partner&utm_medium=logo_button&utm_campaign=pioneerhacks" target="_blank" class="my-8 h-max-24 w-[50%] max-w-[250px]">
         <img src="/sponsors/launchx.png" alt="launchx"/>
       </a>
 
