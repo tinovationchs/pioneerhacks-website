@@ -45,6 +45,10 @@
         <a href="https://www.wolframalpha.com/" target="_blank" class="my-8 m-auto h-max-24 w-[50%] max-w-[300px]">
           <img src="/sponsors/wolfram.png" alt="wolfram alpha"/>
         </a>
+
+        <a href="https://www.interviewcake.com/" target="_blank" class="my-8 m-auto h-max-24 w-[50%] max-w-[300px]">
+          <img src="/sponsors/interview-cake.png" alt="interview cake"/>
+        </a>
       </div>
 
       <!-- Row 4 -->
