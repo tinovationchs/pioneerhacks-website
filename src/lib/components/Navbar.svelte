@@ -1,5 +1,6 @@
 <script>
   import HoverArrow from '../ui/hoverArrow.svelte';
+  import Discord from '../svg/discord.svelte';
 </script>
 
 
@@ -12,13 +13,14 @@
   </a>
 
 
-  <div class="flex flex-grow text-lg lg:text-2xl hidden md:flex">
+  <div class="flex flex-grow text-lg lg:text-xl hidden md:flex">
     <!-- Section redirects -->
     <div class="flex items-center gap-8">
-      <a href="#schedule" class="scroll-smooth">Schedule</a>
-      <a href="#faq">FAQ</a>
-      <a href="#sponsors">Sponsors</a>
+      <a href="/#schedule" class="scroll-smooth">Schedule</a>
+      <a href="/#faq">FAQ</a>
+      <!-- <a href="/team">Team</a> -->
       <a href="https://hcb.hackclub.com/donations/start/pioneerhacks" target="_blank">Donate</a>
+      <a href="https://discord.com/invite/CpuGWpbkzE"><Discord /></a>
     </div>
 
     <!-- Spacer -->
@@ -47,10 +49,11 @@
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </summary>
           <ul class="p-2 z-50 shadow-xl bg-base dropdown-content">
-            <li><a href="#schedule" class="scroll-smooth">Schedule</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a href="/#schedule" class="scroll-smooth">Schedule</a></li>
+            <li><a href="/#faq">FAQ</a></li>
+            <!-- <li><a href="/team">Team</a></li> -->
             <li><a href="https://hcb.hackclub.com/donations/start/pioneerhacks" target="_blank">Donate</a></li>
+            <li><a href="https://discord.com/invite/CpuGWpbkzE"><Discord /></a></li>
           </ul>
         </details>
       </li>

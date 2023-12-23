@@ -27,7 +27,7 @@
     },
     {
       timing: "5:00 - 6:45 PM",
-      title: "CTF",
+      title: "CTF (Capture the Flag)",
       description: "",
     },
     {
