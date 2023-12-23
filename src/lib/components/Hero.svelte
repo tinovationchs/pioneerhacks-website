@@ -5,7 +5,8 @@
 <div class="w-full h-[50vh] sm:h-[100vh] mb-12">
   <!-- Top Overlay -->
   <div class="w-[100%] flex flex-col pt-12 lg:pt-28 w-10/12 items-center gap-1 sm: gap-3
-      z-40 bg-gradient-to-b from-base-200 from-10% absolute">
+              z-40 bg-gradient-to-b from-base-200 from-10% absolute"
+       >
     <div class="flex items-center font-mono text-neutral tracking-wide 
       mx-10 lg:mx-20
       text-xs md:text-2xl">
@@ -14,10 +15,10 @@
       <span>FEBRUARY 17—18 2024</span>
     </div>
 
-    <div class="text-4xl font-thin sm:text-6xl lg:text-[7rem] text-primary tracking-widest">pioneer hacks <strong>V</strong></div>
+    <div class="text-4xl font-thin sm:text-6xl lg:text-[7rem] text-primary tracking-widest" style="text-shadow: black 0 0 10px;">pioneer hacks <strong>V</strong></div>
 
     <a class="group flex tracking-[0.2em] hover:tracking-[0.5em] text-secondary" 
-       style="transition: all 500ms" 
+       style="transition: all 500ms; text-shadow: black 0 0 10px;" 
        href="https://forms.gle/bnjFkqSv4G2qRqBVA" 
        target="_blank">
       Register Now
@@ -25,7 +26,7 @@
     </a>  
 
     <a class="group flex tracking-[0.2em] hover:tracking-[0.5em] text-info text-sm" 
-       style="transition: all 500ms" 
+       style="transition: all 500ms; text-shadow: black 0 0 10px;" 
        href="https://pioneerhacks-v.devpost.com/"
        target="_blank">
       Devpost
@@ -33,7 +34,7 @@
     </a>  
   </div>
 
-  <div class="absolute pt-36 w-full h-[50vh] sm:h-[100vh] zoom-large view-3D">
+  <div class="absolute pt-36 2xl:pt-48 w-full h-[50vh] sm:h-[100vh] zoom-large view-3D">
     <div id="universe" class="scale-stretched">
       <div id="galaxy">
           <div id="solar-system">

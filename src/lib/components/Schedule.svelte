@@ -51,7 +51,7 @@
       description: "",
     },
     {
-      timing: "11:30 AM",
+      timing: "12:00 PM",
       title: "Closing Ceremony",
       description: "",
     },

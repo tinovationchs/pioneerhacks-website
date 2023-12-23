@@ -6,25 +6,25 @@
 <div class="mx-8 py-6 stats shadow-xl bg-base-300 text-primary
   text-xs stats-vertical md:stats-horizontal">
   
-  <div class="stat bg place-items-center">
+  <div class="stat bg place-items-center gap-0">
     <div class="stat-figure text-primary">
       <Person />
     </div>
     <div class="stat-title flex justify-center text-center">Lifetime<br> Participants</div>
     <div class="stat-value">500+</div>
-    <div class="stat-desc">(As of PioneerHacks IV)</div>
+    <div class="stat-desc">(as of PioneerHacks IV)</div>
   </div>
   
-  <div class="stat place-items-center">
+  <div class="stat place-items-center gap-0">
     <div class="stat-figure text-primary">
       <Prize />
     </div>
-    <div class="stat-title">Prize Value</div>
-    <div class="stat-value">$8,000</div>
-    <div class="stat-desc">(in PioneerHacks IV)</div>
+    <div class="stat-title">Prize<br> Value</div>
+    <div class="stat-value">$11,000</div>
+    <div class="stat-desc">(cumulative)</div>
   </div>
   
-  <div class="stat place-items-center">
+  <div class="stat place-items-center gap-0">
     <div class="stat-figure text-primary">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-12 h-12 fill-current">
         <rect width="24" height="24" opacity="0"/>
