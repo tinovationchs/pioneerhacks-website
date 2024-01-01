@@ -12,7 +12,7 @@
 
 <div class="h-16"></div>
 
-<div class="flex flex-col items-center mx-auto gap-12 md:gap-14 w-full max-w-[50rem]">
+<div class="flex flex-col items-center mx-auto gap-12 md:gap-14 w-[80%] max-w-[50rem]">
 
   <Tagline />
   <Stats />
