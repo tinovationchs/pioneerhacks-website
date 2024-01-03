@@ -3,7 +3,7 @@
   <div class="m-4 text-center text-base lg:text-xl">
     Interested in sponsoring?<br>
     Send us an email at <a href="mailto:team@pioneerhacks.org" class="text-info">team@pioneerhacks.org</a><br>
-    or check out or <a class="underline text-info" href="/prospectus.pdf">sponsorship prospectus!</a>
+    or check out our <a class="underline text-info" href="/prospectus.pdf">sponsorship prospectus!</a>
   </div>
 
   <!-- Row 1 (Juniper) -->
