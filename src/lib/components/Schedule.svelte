@@ -21,12 +21,17 @@
       description: "",
     },
     {
+      timing: "2:00 - 3:00 PM",
+      title: "TBA",
+      description: "",
+    },
+    {
       timing: "4:00 - 5:00 PM",
       title: "Generative AI Workshop",
       description: "",
     },
     {
-      timing: "5:00 - 6:45 PM",
+      timing: "9:00 - 10:00 PM",
       title: "CTF (Capture the Flag)",
       description: "",
     },
