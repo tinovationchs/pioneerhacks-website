@@ -21,8 +21,8 @@
       description: "",
     },
     {
-      timing: "3:00 - 4:00 PM",
-      title: "Special Event (TBA)",
+      timing: "4:00 - 5:00 PM",
+      title: "Generative AI Workshop",
       description: "",
     },
     {
