@@ -31,18 +31,13 @@
       description: "",
     },
     {
-      timing: "9:00 - 10:00 PM",
-      title: "CTF (Capture the Flag)",
-      description: "",
-    },
-    {
       timing: "7:00 PM",
       title: "Dinner",
       description: "",
     },
     {
       timing: "9:00 - 10:00 PM",
-      title: "Paper Airplane Folding Contest",
+      title: "CTF (Capture the Flag)",
       description: "",
     },
     {

@@ -12,12 +12,22 @@
   </a>
 
   <!-- Row 2 -->
-  <a href="https://launchx.com/?utm_source=partner&utm_medium=logo_button&utm_campaign=pioneerhacks" target="_blank" class="my-8 h-max-24 w-[50%] max-w-[250px]">
-    <img src="/sponsors/launchx.png" alt="launchx" class="w-full"/>
-  </a>
+  <div class="flex flex-row flex-wrap justify-center items-center gap-x-24">
+    <a href="https://launchx.com/?utm_source=partner&utm_medium=logo_button&utm_campaign=pioneerhacks" target="_blank" class="my-8 h-max-24 w-[50%] max-w-[200px]">
+      <img src="/sponsors/launchx.png" alt="launchx" class="w-full"/>
+    </a>
+
+    <a href="https://www.postman.com/" target="_blank" class="my-8 h-max-24 w-[50%] max-w-[350px]">
+      <img src="/sponsors/postman.svg" alt="postman" class="w-full"/>
+    </a>
+  </div>
 
   <!-- Row 3 -->
-  <div class="flex flex-row flex-wrap justify-center items-center gap-8">
+  <div class="flex flex-row flex-wrap justify-center items-center gap-12">
+    <a href="https://linktel.com/" target="_blank" class="my-8 h-max-16 w-[50%] max-w-[180px]">
+      <img src="/sponsors/linktel.png" alt="aops" class="w-full"/>
+    </a>
+
     <a href="https://artofproblemsolving.com/" target="_blank" class="my-8 h-max-24 w-[50%] max-w-[300px]">
       <img src="/sponsors/aops.png" alt="aops" class="w-full"/>
     </a>
