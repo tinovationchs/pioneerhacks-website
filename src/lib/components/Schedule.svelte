@@ -22,11 +22,6 @@
     },
     {
       timing: "2:00 - 3:00 PM",
-      title: "TBA",
-      description: "",
-    },
-    {
-      timing: "4:00 - 5:00 PM",
       title: "Generative AI Workshop",
       description: "",
     },
@@ -36,7 +31,12 @@
       description: "",
     },
     {
-      timing: "9:00 - 10:00 PM",
+      timing: "8:00 - 9:00 PM",
+      title: "Paper Airplane Contest",
+      description: "",
+    },
+    {
+      timing: "11:00 PM - 12:00 AM",
       title: "CTF (Capture the Flag)",
       description: "",
     },
@@ -58,7 +58,7 @@
   ];
 </script>
 
-<div class="grid grid-cols-8 gap-4 text-sm md:text-xl">
+<div class="grid grid-cols-8 gap-4 text-xs md:text-lg">
 
   {#each events as event}
     <!-- Timing -->
