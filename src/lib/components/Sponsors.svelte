@@ -13,6 +13,10 @@
 
   <!-- Row 2 -->
   <div class="flex flex-row flex-wrap justify-center items-center gap-x-24">
+    <a href="https://www.hackclub.com/" target="_blank" class="my-8 h-max-24 w-[50%] max-w-[350px]">
+      <img src="/sponsors/hackclub.svg" alt="hackclub" class="w-full"/>
+    </a>
+
     <a href="https://launchx.com/?utm_source=partner&utm_medium=logo_button&utm_campaign=pioneerhacks" target="_blank" class="my-8 h-max-24 w-[50%] max-w-[200px]">
       <img src="/sponsors/launchx.png" alt="launchx" class="w-full"/>
     </a>
