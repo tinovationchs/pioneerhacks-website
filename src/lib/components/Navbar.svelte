@@ -27,12 +27,24 @@
     <div class="flex-grow"></div>
 
     <!-- Register Button -->
+    <!--
     <a
       href="https://forms.gle/bnjFkqSv4G2qRqBVA"
       target="_blank"
       style="transition: all 300ms"
       class="group flex items-center gap-1 rounded bg-secondary px-4 py-1 font-header text-lg text-info-content md:py-2 md:text-xl hover:tracking-widest">
       Register
+      <HoverArrow size="1"/>
+    </a>
+    -->
+
+    <!-- Waitlist Button -->
+    <a
+      href="https://forms.gle/v4mbV5VyqQzqCWPy6"
+      target="_blank"
+      style="transition: all 300ms"
+      class="group flex items-center gap-1 rounded bg-secondary px-4 py-1 font-header text-lg text-info-content md:py-2 md:text-xl hover:tracking-widest">
+      Waitlist 
       <HoverArrow size="1"/>
     </a>
   </div>

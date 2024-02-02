@@ -17,6 +17,7 @@
 
     <div class="text-4xl font-thin sm:text-6xl lg:text-[7rem] text-primary tracking-widest" style="text-shadow: black 0 0 10px;">pioneer hacks <strong>V</strong></div>
 
+    <!-- Register Button
     <a class="group flex tracking-[0.2em] hover:tracking-[0.5em] text-secondary" 
        style="transition: all 500ms; text-shadow: black 0 0 10px;" 
        href="https://forms.gle/bnjFkqSv4G2qRqBVA" 
@@ -24,7 +25,18 @@
       Register Now
       <HoverArrow size="1.5"/>
     </a>  
+    -->
 
+    <!-- Waitlist Button -->
+    <a class="group flex tracking-[0.2em] hover:tracking-[0.5em] text-secondary" 
+       style="transition: all 500ms; text-shadow: black 0 0 10px;" 
+       href="https://forms.gle/v4mbV5VyqQzqCWPy6" 
+       target="_blank">
+      Join the Waitlist 
+      <HoverArrow size="1.5"/>
+    </a>
+
+    <!-- Devpost Button -->
     <a class="group flex tracking-[0.2em] hover:tracking-[0.5em] text-info text-sm" 
        style="transition: all 500ms; text-shadow: black 0 0 10px;" 
        href="https://pioneerhacks-v.devpost.com/"
