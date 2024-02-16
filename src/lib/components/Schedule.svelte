@@ -21,7 +21,7 @@
       description: "",
     },
     {
-      timing: "2:00 - 3:00 PM",
+      timing: "4:00 - 5:00 PM",
       title: "Generative AI Workshop",
       description: "",
     },
