@@ -39,6 +39,7 @@
     -->
 
     <!-- Waitlist Button -->
+    <!--
     <a
       href="https://forms.gle/v4mbV5VyqQzqCWPy6"
       target="_blank"
@@ -47,6 +48,7 @@
       Waitlist 
       <HoverArrow size="1"/>
     </a>
+    -->
   </div>
 
   <!-- Mobile Spacer -->

@@ -5,8 +5,13 @@
 <div class="w-full h-[50vh] sm:h-[100vh] mb-12">
   <!-- Top Overlay -->
   <div class="w-[100%] flex flex-col pt-12 lg:pt-28 w-10/12 items-center gap-1 sm: gap-3
-              z-40 bg-gradient-to-b from-base-200 from-10% absolute"
-       >
+              z-40 bg-gradient-to-b from-base-200 from-10% absolute">
+
+    <div class="pb-10 text-center">
+      On behalf of all the organizers, <b> thank you </b> so much for a wonderful hackathon! <br>
+      We'll be back next year, see you then!
+    </div>
+
     <div class="flex items-center font-mono text-neutral tracking-wide 
       mx-10 lg:mx-20
       text-xs md:text-2xl">
@@ -28,6 +33,7 @@
     -->
 
     <!-- Waitlist Button -->
+    <!--
     <a class="group flex tracking-[0.2em] hover:tracking-[0.5em] text-secondary" 
        style="transition: all 500ms; text-shadow: black 0 0 10px;" 
        href="https://forms.gle/v4mbV5VyqQzqCWPy6" 
@@ -35,6 +41,15 @@
       Join the Waitlist 
       <HoverArrow size="1.5"/>
     </a>
+    -->
+
+    <!-- Thank you -->
+    <div class="group flex tracking-[0.2em] hover:tracking-[0.5em] text-secondary" 
+       style="transition: all 500ms; text-shadow: black 0 0 10px;" 
+       href="https://forms.gle/v4mbV5VyqQzqCWPy6" 
+       target="_blank">
+       Thank you!
+    </div>
 
     <!-- Devpost Button -->
     <a class="group flex tracking-[0.2em] hover:tracking-[0.5em] text-info text-sm" 

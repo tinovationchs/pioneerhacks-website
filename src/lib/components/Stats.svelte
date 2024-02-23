@@ -11,9 +11,9 @@
     <div class="stat-figure text-primary">
       <Person />
     </div>
-    <div class="stat-title flex justify-center text-center">Lifetime<br> Participants</div>
-    <div class="stat-value">500+</div>
-    <div class="stat-desc">(as of PioneerHacks IV)</div>
+    <div class="stat-title flex justify-center text-center">Participants</div>
+    <div class="stat-value">170+</div>
+    <div class="stat-desc">PioneerHacks V</div>
   </div>
   
   <div class="stat place-items-center gap-0">
